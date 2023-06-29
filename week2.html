@@ -5,6 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>assignment 1</title>
 <style>
+  *
+  {box-sizing:border-box;
+  }
+
 	body{
 		background-color: #E3E4FA;
 	}
@@ -15,24 +19,28 @@
 		font-family: Verdana ;
 		font-size: 30px;
 	}
+
 p{
 	background-color: #AFEEEE;
 	width:90%;
-	height: 150px;
+	height: 200px;
 	 margin-right: auto;
 	 margin-left: auto;
+   margin-bottom: 15px;
 	 border: 2px solid black;
-	 padding: 10px;
-
+	 padding: 23px;
+   
 
 }
 .row{
-	width:100%;
+	width:100%; 
 }
 @media (min-width:992px){
 .col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9.col-lg-10,.col-lg-11,.col-lg-12
 {
 	float: left;
+ 
+
 }
 .col-lg-1{
 	width: 8.33%;
@@ -45,6 +53,7 @@ p{
 }
 .col-lg-4{
 	width: 33%;
+
 }
 .col-lg-5{
 	width: 41.66%;
@@ -76,6 +85,7 @@ p{
 	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9.col-md-10,.col-md-11,.col-md-12
 	{
 		float: left;
+ 
 	}
 	.col-md-1 {
     width: 8.33%;
@@ -119,6 +129,7 @@ p{
 .col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9.col-sm-10,.col-sm-11,.col-sm-12
 {
 	float: left;
+
 }
 .col-sm-1{
 	width: 8.33%;
@@ -157,21 +168,39 @@ p{
     width: 100%;
   }
 }
+.one{
+  position:relative;
+}
+.sub1{
+  position: absolute;
+  
+  top: -6.3%;
+right: 5%;
+  font-size: 15.5px;
+  background-color: #D1F9F7;
+  border: 2px solid black;
 
-
+  }
 
 </style>
 </head>
 <body>
 	<h1>COMPUTER SCIENCE</h1>
 	<div class="row">
-  <div class="col-lg-4 col-md-6 col-sm-12"><p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
-  </p></div>
+  <div class="col-lg-4 col-md-6 col-sm-12">
+   <div class="one">
+    <h2 class="sub1">WEB DEV</h2>
+    <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
+
+  </p>
+</div>
+</div>
+
+  
   <div class="col-lg-4 col-md-6 col-sm-12"><p>C++ is a general-purpose programming language and is widely used nowadays for competitive programming. It has imperative, object-oriented and generic programming features. C++ runs on lots of platforms like Windows, Linux, Unix, Mac etc.</p></div>
 
   <div class="col-lg-4 col-md-12 col-sm-12"><p>A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing data. There are different basic and advanced types of data structures that are used in almost every program or software system that has been developed. So we must have good knowledge about data structures.</p></div>
 	</div>
 
-	
 </body>
 </html>
