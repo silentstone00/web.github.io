@@ -23,42 +23,39 @@
 p{
 	background-color: #AFEEEE;
 	width:90%;
-	height: 200px;
+	height: 210px;
 	 margin-right: auto;
 	 margin-left: auto;
    margin-bottom: 15px;
 	 border: 2px solid black;
-	 padding: 23px;
+	 padding: 34px;
    
 
 }
 .row{
 	width:100%; 
 }
-@media (min-width:992px){
-.col-lg-1,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9.col-lg-10,.col-lg-11,.col-lg-12
-{
-	float: left;
- 
-
-}
-.col-lg-1{
-	width: 8.33%;
-}
-.col-lg-2{
-	width: 16.66%;
-}
-.col-lg-3{
-	width: 25%;
-}
-.col-lg-4{
-	width: 33%;
-
-}
-.col-lg-5{
-	width: 41.66%;
-}
-.col-lg-6 {
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+   
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
     width: 50%;
   }
   .col-lg-7 {
@@ -81,13 +78,13 @@ p{
   }
 }
 
-@media(min width:768px) and (max width:991px){
-	.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9.col-md-10,.col-md-11,.col-md-12
-	{
-		float: left;
- 
-	}
-	.col-md-1 {
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    
+  }
+  .col-md-1 {
     width: 8.33%;
   }
   .col-md-2 {
@@ -124,29 +121,26 @@ p{
     width: 100%;
   }
 }
-
-@media (max-width:767px){
-.col-sm-1,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9.col-sm-10,.col-sm-11,.col-sm-12
-{
-	float: left;
-
-}
-.col-sm-1{
-	width: 8.33%;
-}
-.col-sm-2{
-	width: 16.66%;
-}
-.col-sm-3{
-	width: 25%;
-}
-.col-sm-4{
-	width: 33%;
-}
-.col-sm-5{
-	width: 41.66%;
-}
-.col-sm-6 {
+@media (min-width: 992px) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left; 
+  }
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
     width: 50%;
   }
   .col-sm-7 {
@@ -172,9 +166,31 @@ section{
   position:relative;
 }
 .sub1{
-  position: absolute;
-  top: -6.3%;
-right: 5%;
+float: right;
+ margin: -0.3px 5%;
+ padding: 5px;
+width: 90px;
+  font-size: 15.5px;
+  background-color: #D1F9F7;
+  border: 2px solid black;
+  
+  }
+.sub2{
+float: right;
+ margin: -0.3px 5%;
+ margin-right: ;
+width: 50px;
+padding: 5px;
+  font-size: 15.5px;
+  background-color: #D1F9F7;
+  border: 2px solid black;
+  }
+  .sub3{
+float: right;
+ margin: -0.3px 5%;
+ margin-right: ;
+width: 120px;
+padding: 5px;
   font-size: 15.5px;
   background-color: #D1F9F7;
   border: 2px solid black;
@@ -189,16 +205,19 @@ right: 5%;
 	<h1>COMPUTER SCIENCE</h1>
 	<div class="row">
   <div class="col-lg-4 col-md-6 col-sm-12">
-   <section class="one">
-    <h2 class="sub1">WEB DEV</h2>
+   <section class="one"><h2 class="sub1">WEB DEV</h2>
     <p>Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites.
   </p>
 </section>
 </div>
+<div class="col-lg-4 col-md-6 col-sm-12">
+  <section class="one"><h3 class="sub2">C.P.P.</h3><p>C++ is a general-purpose programming language and is widely used nowadays for competitive programming. It has imperative, object-oriented and generic programming features. C++ runs on lots of platforms like Windows, Linux, Unix, Mac etc.</p></section>
+</div>
 
-  <div class="col-lg-4 col-md-6 col-sm-12"><p>C++ is a general-purpose programming language and is widely used nowadays for competitive programming. It has imperative, object-oriented and generic programming features. C++ runs on lots of platforms like Windows, Linux, Unix, Mac etc.</p></div>
-
-  <div class="col-lg-4 col-md-12 col-sm-12"><p>A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing data. There are different basic and advanced types of data structures that are used in almost every program or software system that has been developed. So we must have good knowledge about data structures.</p></div>
+  <div class="col-lg-4 col-md-12 col-sm-12">
+    <section><h4 class="sub3">ALGORITHM</h4>
+    <p>A data structure is not only used for organizing the data. It is also used for processing, retrieving, and storing data. There are different basic and advanced types of data structures that are used in almost every program or software system that has been developed. So we must have good knowledge about data structures.</p></section>
+  </div>
 
 </div>
 </body>
