@@ -172,7 +172,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('batman.png');
+    background: url('batcar.png');
     width: 100px;
     height: 100px;
     margin: 5px 5px 5px 0;
@@ -182,7 +182,7 @@ body {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('batcar.png');
+    background: url('batman.png');
     height: 558px;
     background-position: center;
     background-size: cover;
